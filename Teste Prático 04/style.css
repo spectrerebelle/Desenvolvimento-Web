@@ -9,13 +9,11 @@
   }
   
   /* Style the top navigation bar */
-  main {
     overflow: hidden;
     background-color: #333;
   }
   
   /* Style the topnav links */
-  nav a, ul {
     float: left;
     display: block;
     color: #f2f2f2;
