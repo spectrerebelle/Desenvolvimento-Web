@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Aulas de Javascript</title>
+        <script>
+            function setDoisDigitos(tempo) {
+                if (tempo < 10) {
+                    return "0" + tempo;
+                } else {
+                return tempo;}
+            } 
+            
+            var agora = new Date();
+            console.log(setDoisDigitos(agora.getHours()) + ":" + setDoisDigitos(agora.getMinutes()) + ":" + setDoisDigitos(agora.getSeconds()) );
+
+            var aniversario = new Date();
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
