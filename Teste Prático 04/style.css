@@ -43,6 +43,7 @@
   .content p {
     font-family: 'Raleway', sans-serif;
     text-align: justify;
+    text-indent: 8px;
   }
   
   /* Style the footer */
