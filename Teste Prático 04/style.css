@@ -15,7 +15,7 @@
   }
   
   /* Style the topnav links */
-  .topnav {
+  .topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -32,17 +32,12 @@
   
   /* Style the content */
   .content {
-    background-color: honeydew;
+    background-color: #ddd;
     padding: 10px;
-    height: 200px; /* Should be removed. Only for demonstration */
   }
   
   /* Style the footer */
   .footer {
     background-color: #f1f1f1;
     padding: 10px;
-  }
-
-  .footer p {
-    font-family: sans-serif;
   }
