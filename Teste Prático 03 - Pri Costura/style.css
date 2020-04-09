@@ -27,7 +27,7 @@ body {
 
 /* Side navigation links */
 .sidenav a {
-  color:#A36E6F;
+  color:rgb(206, 134, 135);
   font-size: 16px;
   margin-top: 20px;
   margin-left: 5px;
@@ -40,7 +40,7 @@ body {
 /* Change color on hover */
 .sidenav a:hover {
   background-color: #ddd;
-  color:goldenrod;
+  color:rgb(183, 143, 206);
 }
 
 /* Style the content */
@@ -50,12 +50,12 @@ body {
 }
 
 .content h2 {
-  color:#A36E6F;
+  color:rgb(204, 113, 115);
   text-shadow: 1px 1px black;
 }
 
 .content p {
-  color:#A36E6F;
+  color:rgb(221, 126, 127);
   text-shadow: 1px 1px black;
 }
 
