@@ -7,9 +7,13 @@ header {
 }
 
 nav {
+color: lightgreen;
+height: 100px;
+}
+
+nav p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    position: fixed;
 }
 
 section p {
