@@ -12,12 +12,6 @@ header {
     height: 100px;
 }
 
-nav {
-background-color: lightgreen;
-height: 100px;
-font-family: Arial, Helvetica, sans-serif;
-text-decoration: none
-}
 
 section p {
     text-align: left;
