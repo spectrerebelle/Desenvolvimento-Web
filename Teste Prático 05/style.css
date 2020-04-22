@@ -9,13 +9,13 @@ body {
 }
 
 header {
-    background-color: green;
+    background-color: palevioletred;
     height: 100px;
 }
 
 footer {
     clear:both;
-    background-color: darkslategray;
+    background-color: orchid;
     height: 30px;
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
