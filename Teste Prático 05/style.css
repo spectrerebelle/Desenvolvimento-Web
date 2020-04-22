@@ -39,5 +39,5 @@ footer {
 /*CLASS*/
 .container {
     width: 960px;
-    margin: auto;
+    margin:0 auto;
 }
