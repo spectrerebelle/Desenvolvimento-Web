@@ -15,11 +15,13 @@ header {
 #div_esquerda {
     background-color: dimgray;
     min-height:200px;
+    width: 60%;
 }
 
 #div_direita {
     background-color: gray;
     min-height:200px;
+    width: 40%;
 }
 
 footer {
