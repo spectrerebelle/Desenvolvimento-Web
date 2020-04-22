@@ -27,6 +27,7 @@ header {
 }
 
 footer {
+    clear:both;
     background-color: darkslategray;
     height: 30px;
     text-align: right;
