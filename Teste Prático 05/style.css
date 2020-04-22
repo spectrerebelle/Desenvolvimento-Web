@@ -1,0 +1,27 @@
+body {
+    background-color: lavender;
+}
+
+header {
+    width: max-content;
+}
+
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    position: fixed;
+}
+
+section p {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+aside p {
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
