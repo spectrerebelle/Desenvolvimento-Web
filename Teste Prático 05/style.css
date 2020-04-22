@@ -13,7 +13,11 @@ header {
 }
 
 #div_esquerda {
-    
+    background-color: dimgray;
+}
+
+#div_direita {
+    background-color: gray;
 }
 
 footer {
