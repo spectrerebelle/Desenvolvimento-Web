@@ -4,11 +4,11 @@
 }
 
 body {
-    background-color: lavender;
+    background-color: black;
 }
 
 header {
-    width: max-content;
+    background-color: green;
 }
 
 nav {
