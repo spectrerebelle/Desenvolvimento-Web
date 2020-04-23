@@ -6,11 +6,19 @@
 }
 
 body {
-    background-color: black;
+    background-image: url(img/sky.jpg);
+    background-size: 100%;
+    background-repeat: inherit;
+}
+
+h1 {
+    text-align: center;
+    color: lavender;
 }
 
 p {
     text-align: justify;
+    color: lavenderblush;
 }
 
 header {
@@ -29,7 +37,7 @@ footer {
 
 /*IDS*/
 #principal {
-    background-image: url(img/sky.jpg);
+    background-color: rgba(105, 105, 105, 0.438);
     min-height:200px;
     width: 57%;
     padding: 3px;
@@ -37,7 +45,7 @@ footer {
 }
 
 #lateral {
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.486);
     min-height: 200px;
     width: 41%;
     padding: 3px;
