@@ -28,7 +28,17 @@ footer {
     background-color: dimgray;
     min-height:200px;
     width: 60%;
+    padding: 2px;
     float: left;
+}
+
+#lateral {
+    background-color: gray;
+    min-height: 200px;
+    width: 39%;
+    padding: 2px;
+    margin-left: 1px;
+    float: right;
 }
 
 /*CLASS*/
