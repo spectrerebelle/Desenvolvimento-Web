@@ -46,10 +46,12 @@ footer {
 }
 
 #menu {
+    margin-top: 30px;
     float: right;
 }
 
 #menu a {
+    padding: 10px;
     color: silver;
     text-shadow: 1px 1px 1px #1111;
     text-decoration: none;
