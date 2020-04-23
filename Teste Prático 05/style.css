@@ -49,6 +49,12 @@ footer {
     float: right;
 }
 
+#menu a {
+    color: silver;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #1111;
+}
+
 #principal {
     clear: both;
     background-color: rgba(105, 105, 105, 0.438);
