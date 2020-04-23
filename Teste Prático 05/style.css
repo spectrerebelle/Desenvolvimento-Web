@@ -40,7 +40,17 @@ footer {
 }
 
 /*IDS*/
+
+#logo {
+    float: left;
+}
+
+#menu {
+    float: right;
+}
+
 #principal {
+    clear: both;
     background-color: rgba(105, 105, 105, 0.438);
     min-height:200px;
     width: 57%;
