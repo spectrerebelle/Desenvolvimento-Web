@@ -19,6 +19,7 @@ h1, h3 {
 
 p {
     text-align: justify;
+    text-shadow: 1px 1px 1px #111111;
     color: lavenderblush;
 }
 
@@ -31,9 +32,11 @@ header {
 footer {
     clear:both;
     height: 30px;
+    color: honeydew;
     background-color: #d87093;
     padding: 10px;
     text-align: center;
+    text-shadow: 1px 1px 1px #111111;
 }
 
 /*IDS*/
