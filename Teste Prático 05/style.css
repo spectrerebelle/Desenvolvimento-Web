@@ -62,3 +62,7 @@ footer {
     width: 960px;
     margin:0 auto;
 }
+
+.efeito {
+    background-color: rgba(0,0,0, 0.5);
+}
