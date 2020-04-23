@@ -24,18 +24,11 @@ footer {
 }
 
 /*IDS*/
-#div_esquerda {
+#principal {
     background-color: dimgray;
     min-height:200px;
     width: 60%;
     float: left;
-}
-
-#div_direita {
-    background-color: gray;
-    min-height:200px;
-    width: 40%;
-    float: right;
 }
 
 /*CLASS*/
