@@ -9,6 +9,10 @@ body {
     background-color: black;
 }
 
+p {
+    text-align: justify;
+}
+
 header {
     background-color: #d87093;
     height: 80px;
@@ -27,16 +31,16 @@ footer {
 #principal {
     background-color: dimgray;
     min-height:200px;
-    width: 60%;
-    padding: 2px;
+    width: 57%;
+    padding: 3px;
     float: left;
 }
 
 #lateral {
     background-color: gray;
     min-height: 200px;
-    width: 39%;
-    padding: 2px;
+    width: 41%;
+    padding: 3px;
     margin-left: 1px;
     float: right;
 }
