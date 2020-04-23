@@ -57,6 +57,10 @@ footer {
     text-decoration: none;
 }
 
+#menu a:hover {
+    background-color: orchid;
+}
+
 #principal {
     clear: both;
     background-color: rgba(105, 105, 105, 0.438);
