@@ -13,7 +13,8 @@ body {
 
 h1, h3 {
     text-align: center;
-    color: lavender;
+    text-shadow: 1px 1px 1px #111111;
+    color: honeydew;
 }
 
 p {
