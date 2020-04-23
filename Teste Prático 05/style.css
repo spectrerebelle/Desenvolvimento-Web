@@ -11,7 +11,7 @@ body {
     background-repeat: inherit;
 }
 
-h1 {
+h1, h3 {
     text-align: center;
     color: lavender;
 }
@@ -40,7 +40,7 @@ footer {
     background-color: rgba(105, 105, 105, 0.438);
     min-height:200px;
     width: 57%;
-    padding: 3px;
+    padding: 5px 0 0 0;
     float: left;
 }
 
