@@ -17,8 +17,9 @@ header {
 
 footer {
     clear:both;
-    background-color: #d87093;
     height: 30px;
+    background-color: #d87093;
+    padding: 10px;
     text-align: center;
 }
 
