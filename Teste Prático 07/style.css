@@ -15,11 +15,12 @@ section {
     background: white;
     color: gray;
     padding: 20px;
+    display:flex;
+    flex-direction: row;
 }
 
 div {
     background: red;
-    display: inline-block;
     width: 100px;
 }
 
