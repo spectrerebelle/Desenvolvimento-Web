@@ -17,6 +17,12 @@ section {
     padding: 20px;
 }
 
+div {
+    background: red;
+    display: inline-block;
+    width: 100px;
+}
+
 footer {
     background: black;
     padding: 10px 20px;
