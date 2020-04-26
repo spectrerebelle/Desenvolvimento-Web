@@ -8,13 +8,16 @@
 
 header {
     background: black;
+    padding: 20px;
 }
 
 section {
     background: white;
     color: gray;
+    padding: 20px;
 }
 
 footer {
     background: black;
+    padding: 20px;
 }
