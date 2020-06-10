@@ -32,6 +32,8 @@
   
   /* Style the content */
   .content {
+    display: flex;
+    flex-direction: column;
     background-color: #ddd;
     padding: 10px;
   }
@@ -49,9 +51,11 @@
   /* Style the footer */
   .footer {
     background-color: #f1f1f1;
-    padding: 10px;
+    height: 20px;
+    padding: 5px;
   }
 
   .footer p {
     font-family: 'Oswald', sans-serif;
+    text-align: center;
   }
