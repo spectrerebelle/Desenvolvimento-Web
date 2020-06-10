@@ -41,6 +41,12 @@
     padding-left: 0;
   }
   
+  .nav-link a {
+    color: black;
+    text-align: center;
+  }
+
+
   /* Style the content */
   .content {
     display: flex;
