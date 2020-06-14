@@ -3,57 +3,89 @@
     <head>
         <title>Home</title>
             <meta charset="utf-8">
-                <link href="style.css" rel="stylesheet">
+                <link href="css/style.css" rel="stylesheet">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     </head>
 
     <body>
-        <main>
-            <header>
-                <div id="menu">
-                    <a href="#">Home</a>
-                    <a href="#">Products</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
-                </div>
+        <main class="container-fluid">
+            <header class="rounded float-right">
+                <img src="justin-min-QWKXetTq5uA-unsplash.jpg" class="img-fluid" alt="water drops">   
             </header>
 
-           <h1>Título</h1>
+                <nav class="navbar navbar-expand-lg navbar-light text-body">
+                
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
 
-           <article>
-               <p>
-                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis scelerisque nisl, in commodo nisl mollis at. 
-                   Proin eget tincidunt metus. In sagittis neque mauris, sed pharetra lorem tincidunt at. Nulla dignissim metus dolor, ac pretium urna accumsan eu. 
-                   Nullam nec lorem hendrerit, maximus nisi ac, rhoncus tortor. Suspendisse pretium rutrum finibus. Aenean tortor arcu, efficitur non purus quis, scelerisque vehicula turpis. 
-                   Nullam et sapien at urna ultrices ornare. Integer consequat tristique ornare. Donec egestas hendrerit arcu, at dapibus odio facilisis in. 
-                   Morbi arcu ligula, rhoncus aliquet lacus vitae, mattis pharetra est.
-                </p>
-           </article>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
 
-           <section>
-               <h3>Subtítulo</h3>
-               <p>
-                   Etiam non semper lorem. Praesent id dapibus purus. Maecenas commodo turpis quis magna molestie mollis. 
-                   Sed in nulla blandit, posuere odio id, dictum lorem. Donec sollicitudin justo nec malesuada auctor. 
-                   Nulla vel fringilla risus. In elementum sed felis vel scelerisque. Praesent sapien velit, posuere et rhoncus sed, accumsan eget lacus. 
-                   Duis urna felis, varius non volutpat nec, tempor efficitur nisl.
-                </p>
-           </section>
+                <li class="nav-item"><a class="nav-link" href="#">About</a>
+                </li>
 
-           <aside>
-                <h4>Lateral</h4>
-               <p>
-                Fusce bibendum velit nec lorem vestibulum, quis ullamcorper neque venenatis. Etiam ut massa vitae nunc vehicula lobortis. Nunc nec facilisis felis, sit amet commodo lacus. 
-                Nulla facilisi. Praesent suscipit, felis venenatis tincidunt tincidunt, sapien diam rhoncus lacus, semper vestibulum elit nisi vel nisi. In tempor magna ac purus accumsan, eget porta ex blandit. 
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse commodo mi elementum molestie eleifend. Morbi ac ligula ullamcorper, tristique mi at, finibus tortor. 
-                Donec hendrerit fermentum elit, eget lacinia odio rhoncus vel. Etiam in risus in neque molestie mollis. Sed feugiat mattis sapien vel malesuada. Nulla facilisi. Maecenas consequat, arcu nec lobortis laoreet, dolor lacus condimentum nisi, eget semper elit tellus eget lorem. 
-                Mauris molestie est nec eros fermentum, eget sollicitudin massa semper. Donec ipsum ante, viverra at justo vitae, pharetra suscipit felis. 
-            </p>
-           </aside>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a>
+                </li>
 
+                </ul>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+
+
+
+            </nav>
+
+
+             <div class="row">
+
+                <article class="col-md-4">
+                    <h1>Título</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis scelerisque nisl, in commodo nisl mollis at. 
+                        Proin eget tincidunt metus. In sagittis neque mauris, sed pharetra lorem tincidunt at. Nulla dignissim metus dolor, ac pretium urna accumsan eu. 
+                        Nullam nec lorem hendrerit, maximus nisi ac, rhoncus tortor. Suspendisse pretium rutrum finibus. Aenean tortor arcu, efficitur non purus quis, scelerisque vehicula turpis. 
+                        Nullam et sapien at urna ultrices ornare. Integer consequat tristique ornare. Donec egestas hendrerit arcu, at dapibus odio facilisis in. 
+                        Morbi arcu ligula, rhoncus aliquet lacus vitae, mattis pharetra est.
+                        </p>
+                </article>
+
+                <section class="col-md-4">
+                    <h4>Lateral</h4>
+                    <p>
+                        Etiam non semper lorem. Praesent id dapibus purus. Maecenas commodo turpis quis magna molestie mollis. 
+                        Sed in nulla blandit, posuere odio id, dictum lorem. Donec sollicitudin justo nec malesuada auctor. 
+                        Nulla vel fringilla risus. In elementum sed felis vel scelerisque. Praesent sapien velit, posuere et rhoncus sed, accumsan eget lacus. 
+                        Duis urna felis, varius non volutpat nec, tempor efficitur nisl.
+                        </p>
+                </section>   
+
+                <aside class="col-md-4">
+                        <h3>Secundário</h3>
+                    <p>
+                        Fusce bibendum velit nec lorem vestibulum, quis ullamcorper neque venenatis. Etiam ut massa vitae nunc vehicula lobortis. Nunc nec facilisis felis, sit amet commodo lacus. 
+                        Nulla facilisi. Praesent suscipit, felis venenatis tincidunt tincidunt, sapien diam rhoncus lacus, semper vestibulum elit nisi vel nisi. In tempor magna ac purus accumsan, eget porta ex blandit. 
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse commodo mi elementum molestie eleifend. Morbi ac ligula ullamcorper, tristique mi at, finibus tortor. 
+                        Donec hendrerit fermentum elit, eget lacinia odio rhoncus vel. Etiam in risus in neque molestie mollis. Sed feugiat mattis sapien vel malesuada. Nulla facilisi. Maecenas consequat, arcu nec lobortis laoreet, dolor lacus condimentum nisi, eget semper elit tellus eget lorem. 
+                        Mauris molestie est nec eros fermentum, eget sollicitudin massa semper. Donec ipsum ante, viverra at justo vitae, pharetra suscipit felis. 
+                    </p>
+                </aside>
+            </div>
         </main>
 
         <footer>Spectre Rebelle &copy; 2020 </footer>
 
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>
 
 </html>
