@@ -5,9 +5,26 @@
 
 #wrapper {
     max-width: 1200px;
+    margin: 0 auto;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+}
 
+.one-third {
+    width: 29%;
+    float: left;
+    margin: 2%;
+}
+
+img:hover {
+    opacity: .8;
+}
 
 
 
